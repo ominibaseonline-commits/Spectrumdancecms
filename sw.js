@@ -1,7 +1,7 @@
 // Ominibase CMS service worker
 // Network-first for the app itself (always latest build), cached copy when offline.
 // Supabase / Google Apps Script / other-origin calls are never touched.
-const CACHE_NAME = 'ominibase-cms-v3';
+const CACHE_NAME = 'ominibase-cms-v5';
 const SHELL = [
   './',
   './index.html',
